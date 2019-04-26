@@ -42,7 +42,7 @@ async function  parse_command(message) {
     }
   } else if(command === "source") {
     if(message.guild) {
-      message.channel.send('Poke around inside me at <"https://github.com/mercotui/DailyBot">');
+      message.channel.send('Poke around inside me at <https://github.com/mercotui/DailyBot>');
     }
   } else {
     message.channel.send("Hi :L");
