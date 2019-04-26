@@ -1,5 +1,6 @@
 # Discord secrets
-config.json
+*/config.json
+*/crashed.json
 
 # Logs
 logs
