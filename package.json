@@ -1,0 +1,29 @@
+{
+  "name": "dailybot",
+  "version": "0.1.0",
+  "description": "DailyBums discord bot",
+  "main": "dailybot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mercotui/DailyBot.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "DailyBums"
+  ],
+  "author": "Mercotui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mercotui/DailyBot/issues"
+  },
+  "homepage": "https://github.com/Mercotui/DailyBot#readme"
+}
