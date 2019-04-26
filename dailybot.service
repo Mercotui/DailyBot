@@ -1,0 +1,10 @@
+[Unit]
+Description=The DailyBums Discord Bot
+OnFailure=/PATH_TO/chrashed.js
+Restart=always
+
+[Service]
+ExecStart=/PATH_TO/dailybot.js
+
+[Install]
+WantedBy=multi-user.target
