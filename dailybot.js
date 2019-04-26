@@ -29,7 +29,7 @@ async function  parse_command(message) {
   const command = args.shift().toLowerCase();
 
   if(command === "help") {
-    message.channel.send("Commands are: help ping video");
+    message.channel.send("Commands are: help ping video source");
   } else if(command === "ping") {
     // Calculates ping between sending a message and editing it, giving a nice round-trip latency.
     // The second ping is an average latency between the bot and the websocket server (one-way, not round-trip)
@@ -40,8 +40,12 @@ async function  parse_command(message) {
       var video_url = "https://discordapp.com/channels/"+message.guild.id+"/"+config.video_channel_id;
       message.channel.send('Join the channel and click this link:\n<' + video_url + '>');
     }
+  } else if(command === "source") {
+    if(message.guild) {
+      message.channel.send('Poke around inside me at <"https://github.com/mercotui/DailyBot">');
+    }
   } else {
-    message.channel.send("Hi");
+    message.channel.send("Hi :L");
   }
 }
 
