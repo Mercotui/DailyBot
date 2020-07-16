@@ -5,7 +5,7 @@
   "main": "dailybot.js",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {},
   "scripts": {
