@@ -4,7 +4,7 @@
   "description": "DailyBums discord bot",
   "main": "dailybot.js",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "^11.6.4",
     "lodash": "^4.17.21"
   },
   "devDependencies": {},
